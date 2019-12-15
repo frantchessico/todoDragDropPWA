@@ -10,38 +10,37 @@
 
 Firestarter is an Angular PWA powered by Firebase.
 
-- [Live Demo](https://firestarter.fireship.io/)
-- [Lessons and Screencasts](https://fireship.io)
-- [Join the Slack Team](https://fireship.page.link/slack)
+- [Veja o Demo](https://todoportfoliofirebaseauth.firebaseapp.com/)
+- [Meu Portfolio](https://franciscoinoqueportfolio.firebaseapp.com/)
 
-![](https://firebasestorage.googleapis.com/v0/b/angular-voxer.appspot.com/o/demo-gif.gif?alt=media&token=dadcdb72-eb58-4903-b6b8-c741c27a08c4)
 
-## Features
+![](https://franciscoinoqueportfolio.firebaseapp.com/assets/img/francisco_portfolio_pwa.png)
+
+## Funcionalidades
 
 - Angular 8.x + Firebase
-- Installable PWA
-- OAuth and Email/Password Signup with Firebase
-- Drag & drop Kanban demo with Firestore
-- Angular Universal SSR with Nest.js deployed to Google Cloud Run
-- Optional SSR Prerendering Script
+- Instalavel, PWA
+- OAuth e inscrição de e-mail / senha com Firebase
+- Arraste e solte a demonstração Kanban com o Firestore
+- SSR universal angular com Nest.js implantado no Google Cloud Run
+- Script de pré-renderização SSR opcional
 
-## Usage
+## Uso
 
-1.  Run
-
+1. Corra
 - `git clone https://github.com/codediodeio/angular-firestarter.git firestarter`
 - `cd firestarter`
 - `npm install`
 
-2.  Create a project at https://firebase.google.com/ and grab your web config:
+2. Crie um projeto em https://firebase.google.com/ and grab your web config:
 
 ![](https://firebasestorage.googleapis.com/v0/b/firestarter-96e46.appspot.com/o/project-config.PNG?alt=media&token=5eabb205-7ba2-4fc3-905f-e9547055e754)
 
-3.  Add the config to your Angular environment
+3. Adicione a configuração ao seu ambiente Angular
 
 #### src/environments/
 
-Update the `environment.prod.ts` and `environment.ts` files. 
+Atualize o `environment.prod.ts` and `environment.ts` filas. 
 
 ```typescript
 export const environment = {
@@ -59,4 +58,4 @@ export const environment = {
 ```
 
 
-5.  Run `ng serve`
+5. Execute `ng serve`
