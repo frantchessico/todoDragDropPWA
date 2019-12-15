@@ -1,0 +1,26 @@
+<main>
+  <div *ngIf="!(afAuth.authState | async)">
+    <h1>Francisco Portfolio</h1>
+
+    <button mat-raised-button appGoogleSignin style="background:#fff; color:indigo">
+      <img src="/assets/google-logo.svg" /> Entrar com Google
+    </button>
+
+
+
+    <app-email-login></app-email-login>
+  </div>
+
+  <div *ngIf="afAuth.authState | async as user" class="logout">
+    <p>
+      Você está logado como <strong>{{ user.email }}</strong>
+
+    </p>
+    <button class="my-3 btn btn-success" mat-stroked-button routerLink=""><span style="color:rgba(37, 245, 37, 0.89)"><i class="fa fa-2x fa-home"></i></span></button>
+    <br>
+    <br>
+    <button mat-stroked-button (click)="afAuth.auth.signOut()">Sair</button>
+
+
+  </div>
+</main>

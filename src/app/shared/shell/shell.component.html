@@ -1,0 +1,30 @@
+<mat-sidenav-container class="sidenav-container">
+
+  <mat-sidenav-content>
+    <mat-toolbar>
+
+      <span class="logo" routerLink="/"><img style="width: 1em !important;" src="./../../../assets/logo.jpg"></span>
+
+      <span class="fill-space"></span>
+      <div *ngIf="!(isHandset$ | async)">
+
+        <a *ngIf="afAuth.authState | async as user">
+          <button mat-stroked-button  (click)="logOut()">Sair</button>
+        </a>
+        <a mat-button routerLink="/login" *ngIf="!(afAuth.authState | async)">🔑 Login</a>
+        <a mat-button routerLink="/profile" *ngIf="afAuth.authState | async as user" >
+          <img class="avatar" [src]="user.photoURL || 'assets/default-user.svg'">
+
+        </a>
+
+      </div>
+
+
+
+
+    </mat-toolbar>
+
+    <ng-content></ng-content>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>

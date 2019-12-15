@@ -1,0 +1,97 @@
+<!-- <mat-card>
+  <div *ngIf="isSignup">
+    <h3>Criar conta</h3>
+
+    <button mat-stroked-button (click)="changeType('login')">
+      Já tem uma conta?
+    </button>
+  </div>
+
+  <div *ngIf="isLogin">
+    <h3>Entrar</h3>
+    <button size="small" mat-stroked-button (click)="changeType('signup')">
+      Você é novo?
+    </button>
+  </div>
+
+  <div *ngIf="isPasswordReset">
+    <h3>Recuperar senha </h3>
+    <button size="small" mat-button (click)="changeType('login')">Voltar</button>
+  </div>
+
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <mat-form-field [color]="email.valid && 'accent'">
+      <input
+        matInput
+        formControlName="email"
+        type="email"
+        placeholder="Email"
+        autocomplete="off"
+      />
+
+      <mat-error *ngIf="email.invalid && email.dirty">
+        Você deve inserir um endereço de email válido.
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field [color]="email.valid && 'accent'" *ngIf="!isPasswordReset">
+      <input
+        matInput
+        formControlName="password"
+        type="password"
+        placeholder="Senha"
+        autocomplete="off"
+      />
+
+      <mat-error *ngIf="password.invalid && password.dirty">
+        A senha deve ter pelo menos 6 caracteres
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field
+      [color]="passwordDoesMatch ? 'accent' : 'warn'"
+      *ngIf="isSignup"
+    >
+      <input
+        matInput
+        formControlName="passwordConfirm"
+        type="password"
+        placeholder="Confirme a Senha"
+        autocomplete="off"
+      />
+
+      <mat-error *ngIf="passwordConfirm.dirty && !passwordDoesMatch">
+        Senha não corresponde
+      </mat-error>
+    </mat-form-field>
+
+    <mat-error class="server-error">{{ serverMessage }}</mat-error>
+
+    <button
+      *ngIf="isPasswordReset"
+      mat-stroked-button
+      type="submit"
+      [disabled]="loading"
+    >
+    Enviar e-mail de redefinição
+    </button>
+
+    <button
+      *ngIf="!isPasswordReset"
+      mat-raised-button
+      color="accent"
+      type="submit"
+      [disabled]="form.invalid || !passwordDoesMatch || loading"
+    >
+      Submeter
+    </button>
+  </form>
+
+  <button
+    mat-button
+    *ngIf="isLogin && !isPasswordReset"
+    (click)="changeType('reset')"
+  >
+  Esqueceu a senha?
+  </button>
+</mat-card> -->
