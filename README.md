@@ -1,8 +1,9 @@
 <p align="center">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
-<a href="https://www.instagram.com/frantchessico/"><img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"></a>
+<a href="https://www.instagram.com/frantchessico/"><img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"><i class="fab fa-twitter"></i></a>
 
-<a href="https://twitter.com/InoqueJaime"><img src="https://cdn.pixabay.com/photo/2014/04/03/11/53/twitter-312464_960_720.png"></a>
+<a href="https://twitter.com/InoqueJaime"></a>
 
 </p>
 
