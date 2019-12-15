@@ -1,14 +1,14 @@
 <p align="center">
 
-<a href="https://slackin-pbfjhfxnsa.now.sh"><img src="https://slackin-pbfjhfxnsa.now.sh/badge.svg"></a>
+<a href="https://www.instagram.com/frantchessico/"><img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"></a>
 
-<a href="https://circleci.com/gh/codediodeio/angular-firestarter"><img src="https://circleci.com/gh/codediodeio/angular-firestarter.svg?style=svg"></a>
+<a href="https://twitter.com/InoqueJaime"><img src="https://cdn.pixabay.com/photo/2014/04/03/11/53/twitter-312464_960_720.png"></a>
 
 </p>
 
-# FireStarter
+# todoDragDropPWA
 
-Firestarter is an Angular PWA powered by Firebase.
+O todoDragDropPWA é um PWA Angular desenvolvido com o Firebase.
 
 - [Veja o Demo](https://todoportfoliofirebaseauth.firebaseapp.com/)
 - [Meu Portfolio](https://franciscoinoqueportfolio.firebaseapp.com/)
