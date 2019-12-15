@@ -29,7 +29,7 @@ O todoDragDropPWA é um PWA Angular desenvolvido com o Firebase.
 ## Uso
 
 1. Corra
-- `git clone https://github.com/codediodeio/angular-firestarter.git firestarter`
+- `git clone https://github.com/frantchessico/todoDragDropPWA.git todoDragDropPWA`
 - `cd firestarter`
 - `npm install`
 
